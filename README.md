@@ -45,3 +45,6 @@ On the other hand, the subtitle files *must* be named in the following manner:
 sXXeYY-LC.vtt
 ```
 `XX` and `YY` are the same as before, and `LC` is the language code for the appropriate language. For example, English is `en` (`en-US`/`en-GB` can be configured if you want), Spanish is `es`, Spanish in Latin America is `es-419`, and so on. While there's nothing technical *forcing* you to make sure those language codes are correct (so long as they match the contents of `db.json`), I recommend making sure they're correct for your own sanity.
+
+### A note about video codecs
+kiss-video is intended to serve MP4 files using a standard video codec. You could `s/.mp4/.webm` in `viewEp.js` to serve WEBM instead, but not every browser (*cough cough Apple*) can handle all media types as embedded video.
