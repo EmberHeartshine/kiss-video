@@ -13,7 +13,7 @@ kiss-video is entirely static, so most of the configuration you need is in `db.j
 ### db.json
 - `page.pageTitle`: Text that will display *after* the title or episode information in the browser's title bar.
 - `series.titleFull`: The full name of the series, without any abbreviations. This isn't really used.
-- `series.titleAbbrev`: The series abbreviation. This is put into the browser's title bar before the above.
+- `series.titleAbbrev`: The series abbreviation. This is put into the browser's title bar before the above if season and episode numbers are used.
 - `series.vidPath`: The location of the video files. This can be relative or absolute, and can even be on other domains (assuming the target Web server is set up properly).
 - `series.vttPath`: The location of the subtitle files in VTT format. This can be relative or absolute, and can even be on other domains (assuming the target Web server is set up properly). If this object is omitted, no subtitles are available.
 - `series.vidRes`: The resolutions available, such as `480`, `720`, `1080`, etc.
