@@ -5,8 +5,8 @@
 	"series": {
 		"titleFull": "Blender Open Movies",
 		"titleAbbrev": "BOM",
-		"vidPath": "https://filedn.eu/lIMSxww3LYRSHOIS84roWep/bom/",
-		"vttPath": "https://filedn.eu/lIMSxww3LYRSHOIS84roWep/bom/vtt/",
+		"vidPath": "https://static3.heartshine.gay/bom/",
+		"vttPath": "https://static3.heartshine.gay/bom/vtt/",
 		"vidRes": [
 			480,
 			720
@@ -70,12 +70,11 @@
 					},
 					{
 						"epNum": 2,
-						"epTitle": "Charge!",
-						"vidRatio": 2.3875
+						"epTitle": "Charge!"
 					},
 					{
 						"epNum": 3,
-						"epTitle": "WING IT! A Pet Project",
+						"epTitle": "Wing It: A Pet Project",
 						"vidRes": [
 							480,
 							720,
