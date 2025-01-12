@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="theme-color" content="#BAF4C2">
+		<meta property="title" content="kiss-video sample site">
+		<meta property="og:title" content="kiss-video sample site">
+		<meta property="description" content="For videos and stuff, I guess.">
+		<meta property="og:description" content="For videos and stuff, I guess.">
+		<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Play-rounded-button-outline.svg/64px-Play-rounded-button-outline.svg.png">
+		<title>If you can see this, you need to enable JavaScript!</title>
+		<link rel="stylesheet" type="text/css" href="viewEp.css">
+		<script src="viewEp.js"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	</head>
+	<body onload="initPage();">
+		<h1 id="epName"></h1>
+		<div>
+			<video id="playerVid" controls crossorigin>
+				<source type="video/mp4" id="viewPort">
+			</video>
+		</div>
+		<div>
+			<p id="jsCheck">If you can see this, you need to enable JavaScript!<br></p>
+			<label for="playerRes">Change resolution</label>
+			<select id="playerRes" onchange="setPlayerRes(this.value);"></select>
+			<p>Dark Mode:&nbsp;</p>
+			<button id="lightsOut" value="0" onclick="turnOutTheLights(this);">Off</button>
+			<br>
+			<p>Change Episode:&nbsp;<br class="mobileBreak"></p>
+			<label for="seasList">Select season</label>
+			<select id="seasList" onchange="epList(this.value);"></select>
+			<label for="epList">Select episode</label>
+			<select id="epList"></select>
+			<button id="goEp" onclick="changeEp();">Go!</button>
+		</div>
+		<div>
+			<p id="smol">You can put whatever you want in this little footer! For example:<br/>Blender Open Movies are &copy; copyright Blender Foundation. For more, please <a href="https://studio.blender.org/films/">click here</a>.</p>
+		</div>
+</body>
+</html>

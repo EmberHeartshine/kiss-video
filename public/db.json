@@ -1,0 +1,59 @@
+{
+	"page": {
+		"pageTitle": " - kiss-video"
+	},
+	"series": {
+		"titleFull": "Blender Open Movies",
+		"titleAbbrev": "BOM",
+		"vidPath": "https://filedn.eu/lIMSxww3LYRSHOIS84roWep/bom/",
+		"vttPath": "https://filedn.eu/lIMSxww3LYRSHOIS84roWep/bom/vtt/",
+		"vidRes": [
+			480,
+			720
+		],
+		"vidRatio": 1.77777,
+		"seasons": [
+			{
+				"seasNum": 1,
+				"seasName": "Early Releases (2006-2010)",
+				"episodes": [
+					{
+						"epNum": 1,
+						"epTitle": "Elephants Dream"
+					},
+					{
+						"epNum": 2,
+						"epTitle": "Big Buck Bunny"
+					},
+					{
+						"epNum": 3,
+						"epTitle": "Sintel"
+					}
+				]
+			},
+			{
+				"seasNum": 2,
+				"seasName": "Latest Releases (2021-2023)",
+				"episodes": [
+					{
+						"epNum": 1,
+						"epTitle": "Sprite Fright"
+					},
+					{
+						"epNum": 2,
+						"epTitle": "Charge!"
+					},
+					{
+						"epNum": 3,
+						"epTitle": "Wing It: A Pet Project",
+						"vidRes": [
+							480,
+							720,
+							1080
+						]
+					}
+				]
+			}
+		]
+	}
+}

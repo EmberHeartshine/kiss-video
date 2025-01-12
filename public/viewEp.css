@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html{
+	height:100vh;
+}
+body{
+	background: #455a64;
+	box-shadow:0px 0px 20px 5px #718792 inset;
+	margin:0px;
+	height:auto;
+	min-height:100vh;
+	padding:0px;
+	transition-duration:0.25s;
+}
+body.lightsOut{
+	background-color:#13191c;
+}
+p{
+	color:#fff;
+	display:inline;
+	font:1em Roboto, sans-serif;
+	margin:0px;
+	text-shadow:1px 1px 2px #000;
+}
+p#smol{
+	font-size:0.6em;
+}
+p span.mo{
+	text-decoration:underline #fff dotted;
+	cursor:pointer !important;
+}
+a{
+	color:#fff;
+}
+h1{
+	color:#FFF;
+	font:2.2em 'Titillium Web', sans-serif;
+	font-weight:900;
+	margin:0px;
+	padding-top:10px;
+	text-align:center;
+	text-shadow:1px 1px 2px #000;
+}
+div{
+	display:block;
+	margin:10px auto;
+	padding:0px;
+	text-align:center;
+	width:95%;
+	max-width:2000px;
+}
+video#playerVid{
+	max-width:100%;
+	width:720px;
+}
+button, select{
+	background-color:Transparent;
+	border-radius:5px;
+	border:1px solid #718792;
+	box-shadow:0px 4px 8px #222;
+	color:#FFF;
+	display:inline;
+	font:1em 'Titillium Web', sans-serif;
+	font-weight:700;
+	margin:2px 0px 2px 0px;
+	padding:2px;
+	text-align:center;
+	text-shadow:1px 1px 2px #000;
+	transition-duration:0.25s;
+}
+label{
+	display:none;
+}
+button{
+	padding:2px 8px;
+}
+button:focus, select:focus{
+	outline:0 !important;
+}
+button:hover, select:hover{
+	box-shadow:0px 4px 12px #000,0px 0px 3px #718792 inset;
+}
+button.on{
+	border-bottom:3px solid #69f0ae;
+	padding:2px 8px 0px 8px;
+}
+select{
+	max-width:50%; 
+	overflow:hidden; 
+	white-space:nowrap; 
+	text-overflow:ellipsis;
+}
+select option{
+	background-color:#455a64;
+	margin:0px;
+	padding:2px;
+}
+video::cue{
+	color:#FFF;
+	text-shadow:
+	-1px -1px 2px #000,  
+	1px -1px 2px #000,
+	-1px 1px 2px #000,
+	1px 1px 2px #000;
+	background:transparent;
+	font:1.4em Roboto, sans-serif;
+}
+@media only screen and (min-width: 720px){
+	br.mobileBreak{
+		display:none;
+	}
+	p{
+		line-height:3em;
+	}
+}
+@media only screen and (max-width: 719px){
+	br.mobileBreak{
+		display:block;
+	}
+	p{
+		line-height:1.5em;
+	}
+}
