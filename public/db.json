@@ -19,15 +19,43 @@
 				"episodes": [
 					{
 						"epNum": 1,
-						"epTitle": "Elephants Dream"
+						"epTitle": "Elephants Dream",
+						"epSubs": [
+							{
+								"lang": "de",
+								"label": "Deutsch"
+							}
+						]
 					},
 					{
 						"epNum": 2,
-						"epTitle": "Big Buck Bunny"
+						"epTitle": "Big Buck Bunny",
+						"vidRes": [
+							720
+						]
 					},
 					{
 						"epNum": 3,
-						"epTitle": "Sintel"
+						"epTitle": "Sintel",
+						"epSubs": [
+							{
+								"lang": "de",
+								"label": "Deutsch"
+							},
+							{
+								"lang": "en",
+								"label": "English"
+							},
+							{
+								"lang": "es",
+								"label": "Español"
+							},
+							{
+								"lang": "tzm",
+								"label": "ⵜⴰⵎⴰⵣⵉⵖⵜ"
+							}
+						],
+						"vidRatio": 2.34861
 					}
 				]
 			},
@@ -37,7 +65,8 @@
 				"episodes": [
 					{
 						"epNum": 1,
-						"epTitle": "Sprite Fright"
+						"epTitle": "Sprite Fright",
+						"vidRatio": 2.3875
 					},
 					{
 						"epNum": 2,
@@ -45,7 +74,7 @@
 					},
 					{
 						"epNum": 3,
-						"epTitle": "Wing It: A Pet Project",
+						"epTitle": "WING IT! A Pet Project",
 						"vidRes": [
 							480,
 							720,
