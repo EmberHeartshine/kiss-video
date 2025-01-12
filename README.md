@@ -6,7 +6,7 @@ Dead-simple video streaming website with support for multiple resolutions and ca
 [See a sample site deployed straight from this repository.](https://emberheartshine.github.io/kiss-video/public) (The videos and subtitles haven't been encoded and uploaded to the host yet, so it doesn't work completely yet. Try again tomorrow.)
 
 ## Installation
-Download or clone the repo, configure, and point a Web server at the `public/` directory. That's it!
+Download or clone the repo, configure, and point a Web server at the `public/` directory. Since the videos are all pre-encoded, there's no processing on the server side (beyond serving the static files).
 
 ## Configuration
 kiss-video is entirely static, so most of the configuration you need is in `db.json`. There are a few things to configure directly in `index.html` related to embedding. I highly recommend looking at the example included in this repo to get a better idea of what to expect.
