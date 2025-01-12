@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 html{
 	height:100vh;
@@ -35,7 +35,7 @@ a{
 h1{
 	color:#FFF;
 	font:2.2em 'Titillium Web', sans-serif;
-	font-weight:900;
+	font-weight:700;
 	margin:0px;
 	padding-top:10px;
 	text-align:center;
@@ -61,7 +61,7 @@ button, select{
 	color:#FFF;
 	display:inline;
 	font:1em 'Titillium Web', sans-serif;
-	font-weight:700;
+	font-weight:600;
 	margin:2px 0px 2px 0px;
 	padding:2px;
 	text-align:center;
