@@ -3,6 +3,8 @@
 
 Dead-simple video streaming website with support for multiple resolutions and captions.
 
+[See a sample site deployed straight from this repository.](https://emberheartshine.github.io/kiss-video/public)
+
 ## Installation
 Download or clone the repo, configure, and point a Web server at the `public/` directory. That's it!
 
